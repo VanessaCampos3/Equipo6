@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(abstract-pastel-background-vector.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+}
+
+div.LOGO{
+    margin: 0 auto;
+    display: block;
+    float: center;
+    width: 250px;
+}
+
+div.LOGO img{
+    width: 100%;
+    height: auto;
+}
+div.container{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 6px solid #000000;
+
+}
+div.OPCIONES{
+    margin: 10px 70px;
+    float: left;
+    width: 150px;
+}
+
+div.OPCIONES img{
+    width: 150px;
+    height: 150px;
+}
+
+div.pie{
+    text-align: center;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
